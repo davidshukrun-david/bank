@@ -1,16 +1,27 @@
 # NgBank
 
+# Git Actions
+* clone repo 
+    * `git clone <reourl>`  
+    * `dir`  
+    * `cd <dirname>`  
+    * `npm install`  
+* update form cloud - `git pull`  
+* push into cloud repo 
+    * `git add .`  
+    * `git commit -m "comment"`  
+    * `git push -u origin master`  
+
 # SPEC
 
 ## Entities
 
-### User
+### BankUser
 
 User Properties:
 * id
 * FirstName
 * LastName
-* AccountsList
 * UserName
 * Password
 
@@ -18,6 +29,7 @@ User Properties:
 
 Account Properties:
 * id
+* BankUserId
 * Name
 * Balance
 
